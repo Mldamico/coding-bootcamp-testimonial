@@ -1,0 +1,55 @@
+*,
+html {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  box-sizing: content-box;
+  font-size: 32px;
+  color: hsl(240, 38%, 20%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.testimonial {
+  display: flex;
+  width: 100%;
+}
+
+.testimonial__description {
+  width: 40%;
+  z-index: 10;
+  margin-left: 250px;
+  text-align: left;
+  font-weight: 300;
+}
+
+.person {
+  display: flex;
+}
+
+.person__name {
+  font-weight: bold;
+  padding-right: 10px;
+  font-size: 16px;
+}
+
+.person__job {
+  font-size: 16px;
+  color: hsl(240, 18%, 77%);
+}
+
+.testimonial__image {
+  position: fixed;
+  top: 200px;
+  right: 300px;
+}
+
+.testimonial__image img {
+  border-radius: 10px;
+}
