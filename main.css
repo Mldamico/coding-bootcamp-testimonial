@@ -19,6 +19,7 @@ html {
 .testimonial {
   display: flex;
   width: 100%;
+  align-items: center;
 }
 
 .testimonial__description {
@@ -27,6 +28,12 @@ html {
   margin-left: 250px;
   text-align: left;
   font-weight: 300;
+  background-image: url('./assets/images/pattern-quotes.svg');
+  background-repeat: no-repeat;
+  background-position-x: 100px;
+}
+
+.summary {
 }
 
 .person {
@@ -45,11 +52,23 @@ html {
 }
 
 .testimonial__image {
-  position: fixed;
-  top: 200px;
-  right: 300px;
+  background-image: url('/assets/images/pattern-bg.svg');
+  background-repeat: no-repeat;
 }
 
 .testimonial__image img {
   border-radius: 10px;
+  width: 600px;
+}
+
+.image_quote {
+  background-image: url('./assets/images/pattern-quotes.svg');
+  position: fixed;
+  width: 100%;
+}
+.image_bg {
+  background-image: url('/assets/images/pattern-bg.svg');
+}
+.image_down {
+  background-image: url('./assets/images/pattern-curve.svg');
 }
